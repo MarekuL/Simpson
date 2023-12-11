@@ -3,6 +3,10 @@ double  F1(double x)
 {
 	return(sqrt(1 + 2*pow(x,3)));
 }
+double F2(double x, double y)
+{
+	return(4 - pow(x, 2) - pow(y, 2));
+}
 double Trapez(double a, double b)
 {
 	double e1 = 1E-4;
